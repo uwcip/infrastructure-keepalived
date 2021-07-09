@@ -8,4 +8,4 @@ RUN apt-get -q update && \
     apt-get install -y --no-install-recommends tini keepalived curl socat && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT ["tini", "--", "/usr/sbin/keepalived"]
+ENTRYPOINT ["tini", "--", "/usr/sbin/keepalived", "--no-syslog", "--dont-fork", "--log-console"]

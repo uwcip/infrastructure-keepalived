@@ -1,4 +1,4 @@
-FROM debian:bullseye-slim@sha256:e3ed4be20c22a1358020358331d177aa2860632f25b21681d79204ace20455a6
+FROM debian:bullseye-slim@sha256:cdf2e66fbf065b0baad9798499c43ea91e01e11e5c970e8d0a60caf443d28727
 
 # github metadata
 LABEL org.opencontainers.image.source=https://github.com/uwcip/infrastructure-keepalived

@@ -1,6 +1,7 @@
-.*.swp
-*~
-.DS_Store
-.DS_Store?
-.Trashes
-Thumbs.db
+# General exceptions
+**/.*.swp
+**/*~
+**/.DS_Store
+**/.DS_Store?
+**/.Trashes
+**/Thumbs.db
